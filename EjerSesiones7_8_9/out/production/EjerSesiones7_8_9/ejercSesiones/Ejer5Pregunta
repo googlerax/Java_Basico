@@ -1,0 +1,8 @@
+Indica cuál es el problema de utilizar un Vector con la capacidad por defecto si tuviésemos 1000 elementos
+para ser añadidos al mismo.
+
+
+Respuesta:
+Ya que un vector "crece" de forma automatica,se crearian por cada 11 elementos agregados arrays subyacentes,
+lo que implicaria tambien la copia de los elementos hacia los arrays nuevos,esto genera muchisimo consumo de recursos
+computacionales. es recomendable el agregar la capacidad inicial si conocemos cuantos elementos contendra el vector.
